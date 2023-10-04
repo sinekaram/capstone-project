@@ -2,8 +2,8 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link,NavLink } from 'react-router-dom';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { NavLink } from 'react-router-dom';
+//import NavDropdown from 'react-bootstrap/NavDropdown';
 import { FaSignInAlt } from 'react-icons/fa';
 
 
@@ -36,7 +36,7 @@ const TopNavbar = () => {
             <NavLink to="/home" className="nav-link">Home</NavLink>
             <NavLink to="/about" className="nav-link">About</NavLink>
             <NavLink to="/faq" className="nav-link">FAQs</NavLink>
-            <NavLink to="/emiCalculator" className="nav-link">EMI Calculator</NavLink>
+            <NavLink to="/emi-calculator" className="nav-link">EMI Calculator</NavLink>
             <NavLink to="/customerSupport" className="nav-link">Customer Support</NavLink>
             <NavLink to="/contact" className="nav-link">Contact</NavLink>
           </Nav>
